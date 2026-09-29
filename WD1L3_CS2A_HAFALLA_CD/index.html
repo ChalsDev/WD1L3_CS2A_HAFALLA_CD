@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+
+        <title> Enigma </title>
+        <!-- External CSS   -->
+         <link rel="stylesheet" href="style.css"/>
+
+         <!-- Internal CSS -->
+         <style>
+         .internal-css {
+            color: black;
+            background: white;
+            border-left: 10px solid rgb(0, 0, 0);
+            padding: 12px 16px;
+            margin: 20px 0;
+
+         } </style>
+
+         <!-- Inline CSS -->
+
+    </head>
+ 
+
+    <body>
+        <header class="top-header">
+
+            
+            <!--Create Area for Logo-->
+            <div class="Brand">
+                <span class="Brand-Mark"><img src="MEDIA/logo.jpeg" alt="Enigma logo" class="Brand-Logo"></span>
+                <H1>Enigma</H1>
+            </div>
+
+
+            <!--navigatiion bar-->
+            <nav class="navbar">
+                <ul class= " nav-list" >
+                <Li><a href="Home"> Home </a></Li>
+                <li class="dropdown">
+            <a href="collections">Collections</a> 
+            <ul class="dropdown-menu">
+                <Li><a href="Running"> Daily </a></Li>
+                <Li><a href="Casual"> Sport </a></Li>
+                <Li><a href="Fashion"> Fashion </a></Li>
+            </ul>
+            </li>
+                <Li><a href="features"> Features</a></Li>
+                <Li><a href="gallery"> Gallery</a></Li>
+
+                 </ul>
+            
+            </nav>
+            
+        
+           </header>
+
+
+           <!--HERO SECTION-->
+
+
+        <main id="home" class="container">     <!--id: identify one element, class: can be used in many elements-->
+            <section class="hero">
+                <div class="hero-text">
+                    <p class="eyebrow">Premium Footwear Presentation</p>
+                    <h2>A legacy in Every Step, Where Elegance Endures</h2>
+                    <p>
+                        Explore our latest shoe showcase featuring premium series
+                        product highlights
+                    </p>
+                    <a class="btn" href="#gallery">View Collection</a>
+                    
+                    </p>
+                </div>
+
+                <div class="hero-image">
+                     <img
+                       src="MEDIA/climax.jpeg"
+                       alt="New Modern Shoe Style"
+                       class="shoe-img"
+                       />
+                </div>
+                  
+
+            </section>
+            
+            <!--This is internal CSS demo
+
+            <section class="internal-css">
+                <p>This section demonstrates the use of Internal CSS, where styles are defined within the HTML
+                
+            -->
+                
+            </section>
+
+            <section id="features" class="content-grid">
+                <article class="card">      <!--article is an independent section-->  
+                
+                    <h3>Product Highlights</h3>
+                    <ul class="features-list">
+                    <li>Timeless Design</li>
+                    <li>Premium Craftsmanship</li>
+                    <li>Lightweight Construction</li>
+                    <li>Enduring Quality</li>
+                    <li>Versatile Elegance</li>
+                    <li>Iconic Detailing</li>
+                    <li>Precision Fit</li>
+
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h2>Size Guide</h2>
+                    <table class="size-table">
+                        <thead>
+                            <tr>
+                                <th>Size</th>
+                                <th>Length (cm)</th>
+                                <th>Fit</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>7</td>
+                                <td>25.0</td>
+                                <td>Snug</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>26.0</td>
+                                <td>Regular</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>27.0</td>
+                                <td>Roomy</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </section>
+
+            <section id="gallery" class="gallery-section">
+                <h1>Gallery</h1>
+                <div class="gallery">
+        
+                    <img src="MEDIA/series1.jpeg" alt="series 1"/>
+                        
+                    <img src="MEDIA/series2.jpeg" alt="series 2"/>
+                   
+                    <img src="MEDIA/series3.jpeg" alt="series 3"/>
+                </div>
+
+
+            </section> 
+            <section class="info-columns">
+                <div class="card" id="running">
+                    <h2>Why Choose This Shoe</h2>
+                    <ol>
+                        <li>Comfortable for daily wear</li>
+                        <li>Durable sole for long use</li>
+                        <li>Elegant and timeless design</li>
+                    </ol>
+                </div>
+
+                <div class="card" id="fashion">
+                    <h2>Purchase links</h2>
+                    <p>Visit our
+                        <a href="#" class="text-link">
+                        official store
+                    </a>
+                    or check our
+                    <a href="#" class="text-link">
+                        New Arrivals
+                    </a>
+                </p>
+                <p>
+                    <i class="shoes-icon">⭐️ Design</i>
+                    Design for style and performance
+                </p>
+
+                </div>
+            </section>
+
+
+            <!-- Inline CSS example 
+
+
+            <section id="collections" class="card">
+                <h2>Inline CSS example</h2>
+                <p>
+                    <span style="color: rgb(210, 180, 28); font-weight: bolder;">This sentence uses Inline CSS
+
+                    </span>
+                    to demonstrate direct styling inside the HTML body.
+                </p>
+
+            </section>
+            
+            -->
+
+           
+        <span style="color: rgb(56, 141, 0); font-weight: bolder; margin-bottom: 15px; margin-top: 100px; display: block;">
+            <h1>Flowers</h1>
+
+        </span>
+
+        <section id="flowers" calss="flowers-section">
+        
+
+            <div class="flowers">
+
+            <article class="card">
+                <h3>Jasmine</h3>
+                <img src="MEDIA/flower1.jpeg" alt="Flower 1"/>
+                <p> Known for its sweet fragrance and white blooms. </p>
+            </article>
+
+            <article class="card">
+                <h3>Lavender</h3>
+                <img src="MEDIA/flower2.jpeg" alt="Flower 2"/>
+                <p> Known for its calming scent and purple flowers. </p>
+            </article>
+
+            <article class="card">
+                <h3>Poppy</h3>
+                <img src="MEDIA/flower3.jpeg" alt="Flower 3"/>
+                <p> Recognized for its vibrant red color and distinctive shape. </p>
+            </article>
+
+            <article class="card">
+                <h3>Lily</h3>
+                <img src="MEDIA/flower4.jpeg" alt="Flower 4"/>
+                <p> Known for its elegant shape , fragrant blooms, and graceful appearance. </p>
+            </article>
+
+            </div>
+
+        </section>
+
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 Enigma. All rights reserved.</p>
+
+
+        </footer>
+    </body>
+
+</html>
